@@ -22,7 +22,7 @@ class AuthRepository(private val tokenManager: TokenManager) {
     fun getToken(): String? {
         return tokenManager.getToken()
     }
-
+//
     // Tokenni tozalash
     fun clearToken() {
         tokenManager.clearToken()
